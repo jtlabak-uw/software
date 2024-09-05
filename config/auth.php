@@ -112,4 +112,17 @@ return [
 
     'password_timeout' => env('AUTH_PASSWORD_TIMEOUT', 10800),
 
+    /*
+    |--------------------------------------------------------------------------
+    | Mock NetID
+    |--------------------------------------------------------------------------
+    |
+    | This option allows you to mock a UW NetID for development purposes.
+    | If set, the application will automatically log in as the user with
+    | the given UW NetID. This is useful for testing and development.
+    |
+    */
+
+    'mock_netid' => env('NETID_AUTH_MOCK', null),
+
 ];
